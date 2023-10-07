@@ -3,10 +3,10 @@ public class test2 {
 
         int user = 6;
         if (user == 4){
-            System.out.println(true);
+            System.out.println(1);
 
         } else {
-            System.out.println(false);
+            System.out.println(0);
         }
     }
 }
