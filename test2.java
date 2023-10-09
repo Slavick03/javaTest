@@ -1,12 +1,20 @@
-public class test2 {
-    public static void main(String[] args) {
+import java.io.InputStreamReader;
+import java.io.IOException;
+import java.io.BufferedReader;
 
-        int user = 6;
-        if (user == 4){
-            System.out.println(1);
+
+public class test2 {
+    public static void main(String[] args) throws IOException { 
+              
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));   
+        String userInput = reader.readLine();
+        int user = Integer.parseInt(userInput);
+        if (user % 2 == 0){
+            System.out.println("yes");
 
         } else {
-            System.out.println(0);
+            System.out.println("no");
         }
     }
-}
+ }
+
